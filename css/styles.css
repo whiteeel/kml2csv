@@ -1,0 +1,79 @@
+header {
+  font-size: 25px;
+  font-weight: bold;
+  color: #932d2d;
+}
+
+form {
+  width: 600px;
+  background: #e6e2e2;
+  margin: 0 auto;
+  margin-left: 2px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+form ol {
+  padding-left: 0;
+}
+
+form li, div > p {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border: 1px solid black;
+  line-height: 32px;
+  padding-left: 10px;
+  height: 66px;
+}
+
+#pFile {
+  vertical-align:middle;
+  height: 66px;
+  line-height: 66px;
+}
+
+form label {
+  font-size: 0.75em;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-color: #aaaaaa #444444 #444444 #aaaaaa;
+  background: #ffffff;
+}
+
+form label:hover {
+  background-color: #f2f2f2;
+}
+
+form label:active {
+  background-color: #f2f2f2;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75em;
+  width: 80px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  border: 2px solid;
+  border-color: #aaaaaa #444444 #444444 #aaaaaa;
+  background: #ffffff;
+}
+
+a:hover {
+  background: #f2f2f2;
+}
+
+#dataaa {
+  visibility: hidden;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>KmlToCsv</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>KML to CSV Converter</header>
+  <hr>
+  <p>googleEarthより作成したkmlデータをエクセル(.csv)に変換します</p>
+  <div class="converter">
+
+    <form name="myform" method="post" enctype="multipart/form-data">
+      <div>
+        <label id="labelFile" for="fileKml">ファイルをを選択してください (.kml)</label>
+        <input type="file" id="fileKml" href="#" accept=".kml">
+      </div>
+      <div class="preview">
+        <p id="pFile">ファイルが選択されていません</p>
+      </div>
+      <div>
+
+        <a id="download" href="#" download="test.csv" onclick="kml2csv()">変換</a>
+
+      </div>
+    </form>
+    <br><br>
+
+  </div>
+
+  <div id="dataaa">
+
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/converter.js"></script>
+</body>
+
+</html>
